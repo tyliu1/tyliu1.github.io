@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111713571-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-111713571-1');
+	</script>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- Custom styles for this template -->
+	<link href="files/jumbotron.css" rel="stylesheet">
+</head>
+
+<title>Yunzhu Li</title>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="#">Yunzhu Li</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+	  		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarToggle">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Publications">Publications</a>
+				</li>
+				<!---
+				<li class="nav-item">
+					<a class="nav-link" href="#Education">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Honors">Honors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Service">Service</a>
+				</li>
+				-->
+				<li class="nav-item">
+					<a class="nav-link" href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container" style="padding-top: 20px; font-size: 18px">
+		<div class="row">
+			<div class="col-md-3", style="padding-right: 40px">
+				<img class="img-responsive img-rounded" src="files/liyunzhu_lowres.jpg" alt="" style="max-width: 240px; border:1px solid black"><br>
+				<small><small>Photo credit to <a href="http://applexiao.com/" target="_blank">Sijia Xiao</a>.</small></small>
+			</div>
+			<div class="col-md-9">
+			<br>
+
+			<p>I am a third-year Ph.D. Candidate at <a href="http://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Laboratory (CSAIL)</a> at  <a href="http://www.mit.edu/" target="_blank">MIT</a>, advised by Prof. <a href="http://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a> and Prof. <a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>. Before coming to MIT, I received the B.S. in Computer Science from <a href="http://english.pku.edu.cn/" target="_blank">Peking University</a> in 2017.
+			</p>
+
+			<p>My research interests lie in computer vision, machine learning, and robotics. In particular, I am interested in how we can enable better robotic manipulation skills via dynamics modeling and multimodal perception.
+			</p>
+
+			</div>
+		</div>
+	</div><br><br>
+
+        <!-- News -->
+	<div class="container">
+		<h3 id="News" style="padding-top: 80px; margin-top: -80px;">News</h3>
+		<ul>
+			<li>
+				I received the <a href="https://adoberesearch.ctlprojects.com/fellowship/previous-fellowship-award-winners/" target="_blank">2020 Adobe Research Fellowship</a>. Thanks, Adobe!
+			</li>
+			<li>
+				I co-organized the <a href="https://www.visionmeetscognition.org/" target="_blank">Vision Meets Cognition</a> workshop at CVPR 2019.
+			</li>
+			<li>
+				Our recent work on building a scalable tactile glove for understanding human grasps has been accepted to <a href="http://stag.csail.mit.edu/" target="_blank">Nature</a>.
+			</li>
+			<li>
+				We are live streaming <a href="http://underactuated.csail.mit.edu/Spring2019/" target="_blank">6.832 Underactuated Robotics</a> at MIT. Checkout the videos on <a href="https://www.youtube.com/channel/UChfUOAhz7ynELF-s_1LPpWg", target='_black'>YouTube</a>.
+			</li>
+			<li>
+				One paper on cross-modal prediction between vision and touch is accepted to <a href="http://visgel.csail.mit.edu/" target="_blank">CVPR 2019</a>.
+			</li>
+			<li>
+				Two papers on learning a dynamics model for model-based control are accepted to <a href="http://dpi.csail.mit.edu" target="_blank">ICLR 2019</a> and <a href="http://propnet.csail.mit.edu" target='_blank'>ICRA 2019</a>.
+			</li>
+		</ul>
+	</div><br><br>
+
+	<!-- Publications -->
+	<div class="container">
+		<h3 id="Publications" style="padding-top: 80px; margin-top: -80px;">Publications</h3>
+		<font color="black">(* indicate equal contribution)</font><br><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/compkpm/compkpm.gif" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="https://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>*,
+			<a href="http://people.csail.mit.edu/hehaodele/" target="_blank">Hao He</a>*,
+			<a href="http://jiajunwu.com" target="_blank">Jiajun Wu</a>,
+			<a href="http://people.csail.mit.edu/dina/" target="_blank">Dina Katabi</a>, and
+			<a href="https://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>
+			<br>
+			<b><font color="black">Learning Compositional Koopman Operators for Model-Based Control</font></b><br>
+			<b><a href="https://iclr.cc/Conferences/2020" target="_blank">ICLR 2020</a></b>,
+			<a href="http://koopman.csail.mit.edu/" target="_blank"> <small>[Project]</small></a>
+			<a href="https://openreview.net/forum?id=H1ldzA4tPr" target="_blank"> <small>[Paper]</small></a>
+			<a href="projects/compkpm/compkpm.bib" target="_blank"> <small>[BibTex]</small></a><br>
+			<font color="firebrick"><b>Spotlight Presentation</b></font><br>
+			Abridged in <b>NeurIPS 2019</b> workshop on Graph Representation Learning <a href="https://grlearning.github.io/papers/" target="_blank"><small>[Link]</small></a>
+			
+			</div>
+		</div><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/clevrer/clevrer.gif" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="https://scholar.google.com/citations?user=SwxS_JkAAAAJ&hl=en" target="_blank">Kexin Yi</a>*,
+			<a href="http://people.csail.mit.edu/ganchuang/" target="_blank">Chuang Gan</a>*,
+			<a href="https://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="https://sites.google.com/site/pushmeet/" target="_blank">Pushmeet Kohli</a>,
+			<a href="http://jiajunwu.com" target="_blank">Jiajun Wu</a>,
+			<a href="https://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>, and
+			<a href="https://web.mit.edu/cocosci/josh.html" target="_blank">Joshua B. Tenenbaum</a>
+			<br>
+			<b><font color="black">CLEVRER: Collision Events for Video Representation and Reasoning</font></b><br>
+			<b><a href="https://iclr.cc/Conferences/2020" target="_blank">ICLR 2020</a></b>,
+			<a href="http://clevrer.csail.mit.edu/" target="_blank"> <small>[Project]</small></a>
+			<a href="https://openreview.net/forum?id=HkxYzANYDB" target="_blank"> <small>[Paper]</small></a>
+			<a href="projects/clevrer/clevrer.bib" target="_blank"> <small>[BibTex]</small></a><br>
+			<font color="firebrick"><b>Spotlight Presentation</b></font>
+			
+			</div>
+		</div><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/stag/stag_lowres.jpg" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="https://people.csail.mit.edu/subras/" target="_blank">Subramanian Sundaram</a>,
+			<a href="https://people.csail.mit.edu/pkellnho/" target="_blank">Petr Kellnhofer</a>,
+			<a href="https://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="https://people.csail.mit.edu/junyanz/" target="_blank">Jun-Yan Zhu</a>,
+			<a href="https://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>, and
+			<a href="https://people.csail.mit.edu/wojciech/" target="_blank">Wojciech Matusik</a>
+			<br>
+			<b><font color="black">Learning the Signatures of the Human Grasp Using a Scalable Tactile Glove</font></b><br>
+			<b><a href="https://www.nature.com/" target="_blank">Nature</a></b>, 569 (7758), 2019,
+			<a href="http://stag.csail.mit.edu/" target="_blank"> <small>[Project]</small></a>
+			<a href="https://www.nature.com/articles/s41586-019-1234-z" target="_blank"> <small>[Paper]</small></a>
+			<a href="https://github.com/Erkil1452/touch" target="_blank"> <small>[Code]</small></a>
+			<a href="http://stag.csail.mit.edu/files/sundaram2019stag.bib" target="_blank"> <small>[BibTex]</small></a><br>
+
+			<small>Covered by</small>
+			<a href="http://news.mit.edu/2019/sensor-glove-human-grasp-robotics-0529" target="_blank"> <small>[MIT News]</small></a>
+			<a href="https://www.nature.com/articles/d41586-019-01593-w" target="_blank"> <small>[Nature News & Views]</small></a>
+			<a href="https://devicematerialscommunity.nature.com/users/257334-subramanian-sundaram/posts/49420-learning-dexterity-from-humans" target="_blank"> <small>[Nature communities]</small></a>
+			<a href="https://www.economist.com/science-and-technology/2019/05/30/improving-robots-grasp-requires-a-new-way-to-measure-it-in-humans" target="_blank"> <small>[The Economist]</small></a>
+			<a href="https://www.pbs.org/wgbh/nova/article/electronic-glove-pressure-sensors/" target="_blank"> <small>[PBS NOVA]</small></a>
+			<a href="https://www.bbc.co.uk/sounds/play/p079yr9y" target="_blank"> <small>[BBC Radio]</small></a>
+			<a href="https://www.newscientist.com/article/2204736-smart-glove-works-out-what-youre-holding-from-its-weight-and-shape/" target="_blank"> <small>[NewScientist]</small></a>
+			</div>
+		</div><hr>
+
+                <div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/visgel/visgel.jpg" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="http://people.csail.mit.edu/junyanz/" target="_blank">Jun-Yan Zhu</a>,
+			<a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>, and
+			<a href="http://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>
+			<br>
+			<b><font color="black">Connecting Touch and Vision via Cross-Modal Prediction</font></b><br>
+			<b><a href="http://cvpr2019.thecvf.com/" target="_blank">CVPR 2019</a></b>,
+			<a href="http://visgel.csail.mit.edu" target="_blank"> <small>[Project]</small></a>
+			<a href="http://visgel.csail.mit.edu/visgel-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="https://github.com/YunzhuLi/VisGel" target="_blank"><small>[Code]</small></a>
+			<a href="http://visgel.csail.mit.edu/visgel.bib" target="_blank"> <small>[BibTex]</small></a><br>
+
+			<small>Covered by</small>
+			<a href="http://news.mit.edu/2019/teaching-ai-to-connect-senses-vision-touch-0617" target="_blank"> <small>[MIT News]</small></a>
+			<a href="https://www.bbc.com/news/av/technology-48711479/robot-taught-to-feel-objects-by-sight-and-other-news" target="_blank"> <small>[BBC]</small></a>
+			<a href="https://www.cnn.com/2019/06/17/us/mit-robot-vision-touch-trnd/index.html" target="_blank"> <small>[CNN]</small></a>
+			<a href="https://www.forbes.com/sites/charlestowersclark/2019/06/17/one-step-closer-to-human-intelligence-mit-csail-combine-sight-and-touch-in-ai/#3496256578b6" target="_blank"> <small>[Forbes]</small></a>
+			<a href="https://techcrunch.com/2019/06/17/mit-develops-a-system-to-give-robots-more-human-senses/" target="_blank"> <small>[TechCrunch]</small></a>
+			<a href="https://www.fastcompany.com/90365007/a-new-robot-can-now-identify-objects-by-touch" target="_blank"> <small>[Fast Company]</small></a>
+			<a href="https://www.engadget.com/2019/06/17/robot-identify-sight-touch/" target="_blank"> <small>[Engadget]</small></a>
+			</div>
+		</div><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/dpi/dpi.png" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="http://jiajunwu.com" target="_blank">Jiajun Wu</a>,
+			<a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>,
+			<a href="https://web.mit.edu/cocosci/josh.html" target="_blank">Joshua B. Tenenbaum</a>, and
+			<a href="http://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>
+			<br>
+			<b><font color="black">Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids</font></b><br>
+			<b><a href="https://iclr.cc/Conferences/2019" target="_blank">ICLR 2019</a></b>,
+			<a href="http://dpi.csail.mit.edu" target="_blank"> <small>[Project]</small></a>
+			<a href="http://dpi.csail.mit.edu/dpi-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="https://github.com/YunzhuLi/DPI-Net" target="_blank"> <small>[Code]</small></a>
+			<a href="http://dpi.csail.mit.edu/dpi.bib" target="_blank"> <small>[BibTex]</small></a>
+			<a href="projects/dpi/dpi-poster.pdf" target="_blank"><small>[Poster]</small></a>
+			<a href="https://www.youtube.com/watch?v=FrPpP7aW3Lg" target="_blank"> <small>[Video]</small></a><br>
+
+			<small>Covered by</small>
+			<a href="http://news.mit.edu/2019/robots-object-manipulation-particle-simulator-0417" target="_blank"> <small>[MIT News]</small></a>
+			<a href="https://www.engadget.com/2019/04/21/mit-particle-simulator-helps-robots-make-sushi/" target="_blank"> <small>[Engadget]</small></a>
+			<a href="https://news.developer.nvidia.com/laying-the-foundation-for-better-object-manipulation-in-robotics/" target="_blank"> <small>[NVIDIA Developer]</small></a>
+			</div>
+		</div><hr>
+
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/propnet/propnet-1.png" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="http://jiajunwu.com" target="_blank">Jiajun Wu</a>,
+			<a href="http://people.csail.mit.edu/junyanz/" target="_blank">Jun-Yan Zhu</a>,
+			<a href="https://web.mit.edu/cocosci/josh.html" target="_blank">Joshua B. Tenenbaum</a>,
+			<a href="http://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>, and
+			<a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>
+			<br>
+			<b><font color="black">Propagation Networks for Model-Based Control Under Partial Observation</font></b><br>
+			<b><a href="https://www.icra2019.org/" target="_blank">ICRA 2019</a></b>,
+			<a href="http://propnet.csail.mit.edu" target="_blank"> <small>[Project]</small></a>
+			<a href="http://propnet.csail.mit.edu/propnet-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="https://github.com/YunzhuLi/PropNet" target="_blank"><small>[Code]</small></a>
+			<a href="http://propnet.csail.mit.edu/propnet.bib" target="_blank"> <small>[BibTex]</small></a>
+			<a href="https://www.youtube.com/watch?v=ZAxHXegkz48" target="_blank"> <small>[Video]</small></a>
+			</div>
+		</div><hr>
+
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/infogail/infogail.png" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>,
+			<a href="http://tsong.me/" target="_blank">Jiaming Song</a>, and
+			<a href="http://cs.stanford.edu/~ermon/" target="_blank">Stefano Ermon</a>
+			<br>
+			<b><font color="black">InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations</font></b><br>
+			<b><a href="https://nips.cc/Conferences/2017" target="_blank">NIPS 2017</a></b>,
+			<a href="projects/infogail/infogail-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="https://github.com/YunzhuLi/InfoGAIL" target="_blank"> <small>[Code]</small></a>
+			<a href="projects/infogail/infogail.bib" target="_blank"> <small>[BibTex]</small></a>
+			<a href="projects/infogail/infogail-poster.pdf" target="_blank"><small>[Poster]</small></a>
+			<a href="https://www.youtube.com/watch?v=YtNPBAW6h5k" target="_blank"> <small>[Video]</small></a>
+			</div>
+		</div><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/skin/detection_tracking.png" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>*,
+			<a href="http://cs.stanford.edu/people/esteva/home/index.html" target="_blank">Andre Esteva</a>*,
+			<a href="https://stanford.edu/~kuprel/" target="_blank">Brett Kuprel</a>,
+			<a href="https://profiles.stanford.edu/roberto-novoa" target="_blank">Rob Novoa</a>,
+			<a href="https://profiles.stanford.edu/justin-ko" target="_blank">Justin Ko</a>, and
+			<a href="http://robots.stanford.edu/" target="_blank">Sebastian Thrun</a>
+			<br>
+			<b><font color="black">Skin Cancer Detection and Tracking using Data Synthesis and Deep Learning</font></b><br>
+			<a href="https://nips.cc/Conferences/2016" target="_blank"><b>NIPS 2016</b> Workshop on Machine Learning for Health</a><br>
+			<a href="http://w3phiai2017.w3phi.com/" target="_blank"><b>AAAI 2017</b> Joint Workshop on Health Intelligence</a><br>
+			<a href="projects/skin/detection_tracking-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="projects/skin/skin.bib" target="_blank"> <small>[BibTex]</small></a>
+			</div>
+		</div><hr>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-fluid img-rounded" src="projects/conv3d/face_detection_conv3d.png" style="border:1px solid black" alt="">
+			</div>
+			<div class="col-md-9">
+			<a href="http://people.csail.mit.edu/liyunzhu/"><b>Yunzhu Li</b></a>*,
+			Benyuan Sun*,
+			<a href="http://www.stat.ucla.edu/~tfwu/" target="_blank">Tianfu Wu</a>, and
+			<a href="http://www.idm.pku.edu.cn/staff/wangyizhou/" target="_blank">Yizhou Wang</a>
+			<br>
+			<b><font color="black">Face Detection with End-to-End Integration of a ConvNet and a 3D Model</font></b><br>
+			<b><a href="http://www.eccv2016.org/" target="_blank">ECCV 2016</a></b>,
+			<a href="projects/conv3d/face_detection_conv3d-paper.pdf" target="_blank"> <small>[PDF]</small></a>
+			<a href="https://github.com/tfwu/FaceDetection-ConvNet-3D" target="_blank"> <small>[Code]</small></a>
+			<a href="projects/conv3d/conv3d.bib" target="_blank"> <small>[BibTex]</small></a>
+			<a href="projects/conv3d/face_detection_conv3d-poster.pdf" target="_blank"> <small>[Poster]</small></a>
+			</div>
+		</div><hr>
+	</div><br><br>
+
+
+	<!-- Experience -->
+	<div class="container">
+		<h3 id="Education" style="padding-top: 80px; margin-top: -80px;">Education</h3>
+		<ul>
+			<li>
+				2017.9 - present, Massachusetts Institute of Technology<br>
+				Ph.D. Candidate in Computer Science
+			</li>
+			<li>
+				2013.9 - 2017.7, Peking University<br>
+				B.S. (Summa Cum Laude) in Computer Science
+			</li>
+		</ul>
+	</div><br><br>
+
+
+	<!-- Experience -->
+	<div class="container">
+		<h3 id="Experience" style="padding-top: 80px; margin-top: -80px;">Experience</h3>
+		<ul>
+			<li>
+				2019.6 - present, Research Intern, NVIDIA Robotics Research Lab<br>
+				Advisors: Prof. <a href="https://homes.cs.washington.edu/~fox/" target="_blank">Dieter Fox</a>, Prof. <a href="https://ai.stanford.edu/~garg/" target="_blank">Animesh Garg</a>
+			</li>
+			<li>
+				2017.9 - present, Research Assistant, MIT Computer Science and Artificial Intelligence Laboratory<br>
+				Advisors: Prof. <a href="http://web.mit.edu/torralba/www/" target="_blank">Antonio Torralba</a>, Prof. <a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>
+			</li>
+			<li>
+				2016.9 - 2017.2, Research Assistant, Stanford Artificial Intelligence Laboratory<br>
+				Advisor: Prof. <a href="http://cs.stanford.edu/~ermon/" target="_blank">Stefano Ermon</a>
+			</li>
+			<li>
+				2016.6 - 2016.9, Research Assistant, Stanford Artificial Intelligence Laboratory<br>
+				Advisor: Prof. <a href="http://robots.stanford.edu/" target="_blank">Sebastian Thrun</a>
+			</li>
+			<li>
+				2015.3 - 2016.5, Research Assistant, Institute of Digital Media, Peking University<br>
+				Advisors: Prof. <a href="http://www.idm.pku.edu.cn/staff/wangyizhou/" target="_blank">Yizhou Wang</a>, Prof. <a href="http://www.stat.ucla.edu/~tfwu/" target="_blank">Tianfu Wu</a>
+			</li>
+		</ul>
+	</div><br><br>
+
+
+	<!-- Awards -->
+	<div class="container">
+		<h3 id="Honors" style="padding-top: 80px; margin-top: -80px;">Selected Honors</h3>
+		<ul>
+			<li>2020 Adobe Research Fellowship <a href="https://adoberesearch.ctlprojects.com/fellowship/previous-fellowship-award-winners/" target="_blank"><small>[Link]</small></a></li>
+			<li>Finalist, 2019 NVIDIA Graduate Fellowship <a href="https://www.nvidia.com/en-us/research/graduate-fellowships/" target="_blank"><small>[Link]</small></a></li>
+			<li>Outstanding Undergraduate Thesis Award, EECS Dept., Peking Univ. (10 in 400)</li>
+			<li>Peking Univ. Merit Student Pacemaker (10 in 200)</li>
+			<li>Lixin-Tang Scholarship (4 in 400)</li>
+		</ul>
+	</div><br><br>
+
+
+	<!-- Service -->
+	<div class="container">
+		<h3 id="Service" style="padding-top: 80px; margin-top: -80px;">Professional Service</h3>
+		<ul>
+			<li> Conference Reviewer: ICLR, ICML, NeurIPS, ICCV, CVPR, ICRA, ECCV</li>
+			<li> Program Committee Member: AAAI, UAI</li>
+			<li>Journal Reviewer: IJCV, IEEE-TMI, IEEE Access, IEEE-ToH </li>
+		</ul>
+	</div><br><br>
+
+
+	<!-- Contact -->
+	<div class="container">
+		<h3 id="Contact" style="padding-top: 80px; margin-top: -80px;">Contact</h3>
+		MIT Computer Science &amp; Artificial Intelligence Lab <br>
+		32 Vassar Street, 32-380 <br>
+		Cambridge, MA 02139 <br>
+		<a href="mailto:liyunzhu@mit.edu">liyunzhu@mit.edu</a><br>
+		<a href="https://scholar.google.com/citations?user=WlA92lcAAAAJ&hl=en" target="_blank">[Google Scholar]</a>
+		<a href="https://github.com/yunzhuli" target="_blank">[Github]</a><br>
+
+		<!--<br><br>This layout was adapted from Mingmin Zhao's <a href="http://people.csail.mit.edu/mingmin/", target="_new">website</a>.-->
+	</div>
+
+	<div class="container">
+		<hr>
+		<center>
+			<footer>
+				<p>&copy; Massachusetts Institute of Technology 2019</p>
+			</footer>
+		</center>
+	</div>
+	<!-- /container -->
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
